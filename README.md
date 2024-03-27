@@ -34,3 +34,22 @@ This is a simple python script to parse a huawei config file and generate a json
                 "qos_outbound": "20M"
             }
         ]
+
+#### Planned JSON Structure
+    [
+        {
+            "hostname":"",
+            "interfaces":[],
+            "routes":[],
+            "vrf_definitions":[],
+            "qos_profiles":[],
+            "syslog":[
+                {
+                    "source":"Loopback0",
+                    "loghost":"10.0.0.1",
+                    "logsource":[]
+                }
+            ]
+
+        }
+    ]
